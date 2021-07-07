@@ -1,0 +1,9 @@
+module Data
+{
+    interface ServiceA
+    {
+        string HelloWorld(in string message);
+        boolean Div(in long a, in long b, out long r);
+        void CaesarCipher(inout string str, in short k);
+    };
+};
